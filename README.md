@@ -1,6 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was Tailwindcss with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+### First `npm install && npm update`
 
 In the project directory, you can run:
 
