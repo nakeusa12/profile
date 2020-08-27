@@ -6,13 +6,22 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "^3.4.3",
+    "tailwindcss": "^1.7.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build:css": "postcss src/styles/tailwind.css -o src/styles/index.css",
+    "watch:css": "postcss src/styles/tailwind.css -o src/styles/index.css --watch",
+    "env:dev": "cross-env NODE_ENV=development",
+    "env:prod": "cross-env NODE_ENV=production",
+    "react-scripts:start": "sleep 5 && react-scripts start",
+    "react-scripts:build": "react-scripts build",
+    "start": "run-p env:dev watch:css react-scripts:start",
+    "build": "run-s env:prod build:css react-scripts:build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -30,5 +39,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "chokidar-cli": "^2.1.0",
+    "concurrently": "^5.3.0",
+    "cross-env": "^7.0.2",
+    "cssnano": "^4.1.10",
+    "npm-run-all": "^4.1.5",
+    "purgecss": "^2.3.0"
   }
 }
