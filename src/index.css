@@ -1,0 +1,28 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.max-width{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* ========================= */
+
+.bg-hero {
+    width: 100%;
+    height: 100vh;
+    background: url('./Assets/Image/hero.jpg') center no-repeat;
+    background-size: cover;
+}
+  
+
+@media only screen and (max-width: 768px){
+  .bg-hero {
+    display: none;
+  }
+
+  .background-blue{
+    background: linear-gradient(141.76deg, #80D0C7 0%, #4B93A1 48.96%, #13547A 100%);
+  }
+}

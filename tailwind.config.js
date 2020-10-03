@@ -18,6 +18,10 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      primary: '#3F3D56',
+      second: '#F1FAEE',
+      third: '#00918E',
+
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
@@ -243,6 +247,12 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
+      primary: [
+        'Nunito', 'sans-serif'
+      ],
+      second: [
+        'Poppins', 'sans-serif'
+      ],
       sans: [
         'system-ui',
         '-apple-system',
@@ -653,7 +663,7 @@ module.exports = {
       },
       bounce: {
         '0%, 100%': {
-          transform: 'translateY(-25%)',
+          transform: 'translateX(-5%)',
           animationTimingFunction: 'cubic-bezier(0.8,0,1,1)',
         },
         '50%': {
