@@ -15,7 +15,8 @@
     background: url('./Assets/Image/hero.jpg') center no-repeat;
     background-size: cover;
 }
-  
+
+
 
 @media only screen and (max-width: 768px){
   .bg-hero {
@@ -25,4 +26,9 @@
   .background-blue{
     background: linear-gradient(141.76deg, #80D0C7 0%, #4B93A1 48.96%, #13547A 100%);
   }
+
+  .heightin{
+    height: 25rem;
+  }
+
 }
