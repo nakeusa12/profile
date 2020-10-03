@@ -1,12 +1,13 @@
 import React from 'react'
+import PasPhoto from "../../../Assets/Image/saiful.jpg"
 
 const Profile = () => {
     return (
         <div className="cursor-move lg:h-screen h-auto " id="about">
-            <div className="container mx-auto flex md:p-12 p-6 md:flex-row flex-col h-full">
+            <div className="container mx-auto flex md:p-16 p-6 md:pt-16 pt-12 md:flex-row flex-col h-full">
                 <div className="lg:w-1/4 md:w-1/2 w-full mb-8 md:mb-0">
                     <div className="w-full h-64 heightin">
-                        <img className="object-cover object-center rounded w-full h-full" alt="hero" src="https://images.pexels.com/photos/5255999/pexels-photo-5255999.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                        <img className="object-cover object-center rounded w-full h-full" alt="Profile" src={PasPhoto} />
                     </div>
                     <div className="my-10 text-center">
                         <a className="px-6 hover:bg-gray-800 hover:text-second py-2 rounded border-solid border-2 border-primary" href="./cv-saifulnakeusa.pdf" download>Download CV</a>

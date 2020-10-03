@@ -1,5 +1,4 @@
 import Hero from "./Hero/Hero"
-import About from "./About/About"
-import Profile from "./Profile/Profile"
+import Swipe from "./Swipe/Swipe"
 
-export { Hero, About, Profile }
+export { Hero, Swipe }

@@ -1,12 +1,11 @@
 import React from 'react'
-import { About, Hero, Profile } from "../Components"
+import { Hero, Swipe } from "../Components"
 
 const Home = () => {
     return (
         <div className="max-width">
             <Hero />
-            <About />
-            <Profile />
+            <Swipe />
         </div>
     )
 }
