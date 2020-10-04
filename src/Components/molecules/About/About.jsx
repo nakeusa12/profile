@@ -1,6 +1,6 @@
 import React from 'react'
-import { ReactComponent as AboutSvg } from '../../../Assets/Image/aboutSvg.svg'
-import { ReactComponent as Arrow } from '../../../Assets/Image/arrow.svg'
+import { ReactComponent as AboutSvg } from '../../../Assets/Icons/aboutSvg.svg'
+import { ReactComponent as Arrow } from '../../../Assets/Icons/arrow.svg'
 import { Gap } from "../../index"
 import TitleAbout from './TitleAbout'
 

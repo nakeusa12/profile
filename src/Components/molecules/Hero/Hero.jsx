@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReactComponent as HeroSvg } from '../../../Assets/Image/heroSvg.svg'
+import { ReactComponent as HeroSvg } from '../../../Assets/Icons/heroSvg.svg'
 import TitleHero from './TitleHero'
 
 const Hero = () => {
