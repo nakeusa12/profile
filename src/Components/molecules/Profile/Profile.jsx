@@ -5,7 +5,7 @@ const Profile = () => {
     return (
         <div className="cursor-move lg:h-screen h-auto " id="about">
             <div className="container mx-auto flex md:p-16 p-6 md:pt-16 pt-12 md:flex-row flex-col h-full">
-                <div className="lg:w-1/4 md:w-1/2 w-full mb-8 md:mb-0">
+                <div className="lg:w-1/4 md:w-1/2 w-full mb-4 md:mb-0">
                     <div className="w-full h-64 heightin">
                         <img className="object-cover object-center rounded w-full h-full" alt="Profile" src={PasPhoto} />
                     </div>
@@ -13,7 +13,7 @@ const Profile = () => {
                         <a className="px-6 hover:bg-gray-800 hover:text-second py-2 rounded border-solid border-2 border-primary" href="./cv-saifulnakeusa.pdf" download>Download CV</a>
                     </div>
                 </div>
-                <div className="xl:flex-grow md:w-3/4 flex flex-col md:items-start md:text-left items-center text-center lg:my-0 my-6">
+                <div className="xl:flex-grow md:w-3/4 flex flex-col md:items-start md:text-left items-center text-center my-0">
                     <div className="md:ml-10 ml-0">
                         <h1 className="text-4xl font-sans text-primary font-bold">
                             My <span className="text-third">Skills</span>
