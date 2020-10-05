@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardService = ({ data: { image, title, desc } }) => {
     return (
-        <div className="p-4 lg:w-1/4 md:w-1/2 w-full">
+        <div className="p-4 lg:w-1/4 md:w-1/2 w-full select-none">
             <div className="h-full bg-gray-100 hover:bg-second rounded shadow-md hover:shadow-lg lg:px-6 px-10 lg:pt-10 pt-12">
                 <div className="w-full">
                     <img
