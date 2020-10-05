@@ -7,7 +7,7 @@ import TitleAbout from './TitleAbout'
 const About = () => {
     return (
         <div className="cursor-move lg:h-screen h-auto" id="about">
-            <div className="container mx-auto flex py-24 md:flex-row flex-col items-center">
+            <div className="container mx-auto flex md:py-24 py-12 md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                     <AboutSvg className="w-full object-cover object-center rounded" />
                 </div>
