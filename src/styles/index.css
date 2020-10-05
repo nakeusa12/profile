@@ -18994,6 +18994,10 @@ video {
   animation: bounce 1s infinite;
 }
 
+/* body { 
+    @apply bg-gray-800;
+} */
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -92545,3 +92549,4 @@ video {
     animation: bounce 1s infinite;
   }
 }
+

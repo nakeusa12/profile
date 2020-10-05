@@ -16,6 +16,16 @@
     background-size: cover;
 }
 
+.project_active{
+  background-color: #00918E;
+  color: #FFFAFA;
+}
+
+.fullin{
+  width: 100%;
+  height: 270px;
+}
+
 @media only screen and (max-width: 1024px){
   .lebar{
     width: 350px;

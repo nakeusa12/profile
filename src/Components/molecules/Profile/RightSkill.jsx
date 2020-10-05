@@ -11,7 +11,7 @@ const RightSkill = () => {
                 </h1>
             </div>
             <div className="mt-4 flex lg:flex-row items-center md:items-start flex-col w-full">
-                <div className="lg:w-1/2 w-full p-2">
+                <div className="lg:w-1/2 w-full">
                     <h1 className="text-xl font-bold">Development</h1>
                     <div className="flex w-full flex-wrap justify-center md:justify-start mt-6">
                         {dataDevelop.map((develop, index) => (
