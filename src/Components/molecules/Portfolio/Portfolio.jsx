@@ -2,9 +2,20 @@ import React, { useState } from 'react'
 import CardPortfolio from "./CardPortfolio"
 import dataPortfolio from "./ApiPortfolio"
 
+// http://web-profile.free.beeceptor.com/projects
+
 const Portfolio = () => {
     const [project, setProject] = useState(dataPortfolio);
     const [active, setActive] = useState('All')
+
+    // useEffect(() => {
+    //     axios.get("http://web-profile.free.beeceptor.com/projects")
+    //         .then(res => {
+    //             console.log(res.data);
+    //             project(res.data)
+    //         })
+    // }, [])
+
 
     const handleFilterCat = (name) => {
         const new_array = dataPortfolio.filter(portProject => portProject.category.includes(name))

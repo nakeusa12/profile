@@ -11,7 +11,7 @@ const Modal = ({ isShowing, hide, projectModal }) => isShowing ? ReactDOM.create
                 <div className="flex w-full bg-gray-200">
                     <div className="md:w-2/4 bg-gray-600 mr-2 relative">
                         <img alt="gallery" className="absolute w-full h-full object-cover object-center inset-0" src={projectModal.image} />
-                        <a href={projectModal.deploy} target="blank" className="absolute z-10 w-full h-full rounded bg-gray-900 opacity-0 hover:opacity-75 transition delay-100 duration-300 ease-in shadow-md flex items-center justify-center flex-col cursor-pointer">
+                        <a href={projectModal.deployed_url} target="blank" className="absolute z-10 w-full h-full rounded bg-gray-900 opacity-0 hover:opacity-75 transition delay-100 duration-300 ease-in shadow-md flex items-center justify-center flex-col cursor-pointer">
                             <FaRegMehRollingEyes className="text-6xl text-second" />
                         </a>
                     </div>
