@@ -4,7 +4,7 @@ import { HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
 
 const SideInfo = () => {
     return (
-        <div class="lg:w-5/12 bg-white h-full grid grid-rows-3 grid-flow-col gap-4 mt-8">
+        <div className="lg:w-5/12 bg-white h-full grid grid-rows-3 grid-flow-col gap-4 mt-8">
             <div className="w-full bg-gray-100 rounded py-6 px-6 lg:ml-6 flex hover:shadow-lg">
                 <FiPhone className="w-10 h-10 text-xs text-primary" />
                 <span className="absolute lg:ml-16 ml-20 mt-1 text-xl font-second select-none">(+62) 852 6151 6545</span>

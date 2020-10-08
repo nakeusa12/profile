@@ -50,7 +50,7 @@ const Contact = () => {
                         </h1>
                 </div>
                 <div className="flex flex-wrap  mx-auto">
-                    <form method="POST" onSubmit={sendEmail} class="lg:w-7/12 bg-white flex flex-col w-full md:py-8 mt-4 md:mt-0 ">
+                    <form method="POST" onSubmit={sendEmail} className="lg:w-7/12 bg-white flex flex-col w-full md:py-8 mt-4 md:mt-0 ">
                         <Input placeholder="Name" type="text" name="from_name" />
                         <Gap height="1rem" />
                         <Input placeholder="Email" type="email" name="reply_to" />
