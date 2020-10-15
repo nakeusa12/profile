@@ -1,53 +1,56 @@
 * {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
-.max-width{
-  max-width: 1600px;
-  margin: 0 auto;
+.max-width {
+	max-width: 1600px;
+	margin: 0 auto;
 }
 
 /* ========================= */
 
 .bg-hero {
-    width: 100%;
-    height: 100vh;
-    background: url('./Assets/Image/hero.jpg') center no-repeat;
-    background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background: url('./Assets/Image/hero.jpg') center no-repeat;
+	background-size: cover;
 }
 
-.project_active{
-  background-color: #00918E;
-  color: #FFFAFA;
+.project_active {
+	background-color: #00918e;
+	color: #fffafa;
 }
 
-.fullin{
-  width: 100%;
-  height: 270px;
+.fullin {
+	width: 100%;
+	height: 270px;
 }
-.h-33{
-  height: 9.4rem;
-}
-
-@media only screen and (max-width: 1024px){
-  .lebar{
-    width: 350px;
-    height: 420px;
-  }
+.h-33 {
+	height: 9.4rem;
 }
 
+@media only screen and (max-width: 1024px) {
+	.lebar {
+		width: 350px;
+		height: 420px;
+	}
+}
 
-@media only screen and (max-width: 768px){
-  .bg-hero {
-    display: none;
-  }
+@media only screen and (max-width: 768px) {
+	.bg-hero {
+		display: none;
+	}
 
-  .background-blue{
-    background: linear-gradient(141.76deg, #80D0C7 0%, #4B93A1 48.96%, #13547A 100%);
-  }
+	.background-blue {
+		background: linear-gradient(
+			141.76deg,
+			#80d0c7 0%,
+			#4b93a1 48.96%,
+			#13547a 100%
+		);
+	}
 
-  .heightin{
-    height: 25rem;
-  }
-
+	.heightin {
+		height: 25rem;
+	}
 }
