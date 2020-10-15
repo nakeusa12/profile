@@ -26,7 +26,7 @@ const Portfolio = () => {
 
 	return (
 		<section className='bg-gray-100 body-font' id='porfolio'>
-			<div className='container px-12 py-20 h-auto mx-auto'>
+			<div className='container px-12 py-32 h-auto mx-auto'>
 				<div className='flex flex-col text-center w-full mb-12'>
 					<h2 className='md:text-xl text-2xl text-third font-primary font-bold mb-1'>
 						My Project

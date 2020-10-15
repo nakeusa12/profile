@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavItems } from './NavItems';
 import { animateScroll as scroll } from 'react-scroll';
+import Logo from '../../../Assets/Icons/logo.svg';
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,7 @@ const Navbar = () => {
 		<header
 			className={`${
 				navbar ? 'bg-third shadow-md' : 'lg:bg-transparent bg-third'
-			} fixed z-10 w-full lg:py-2 py-6 lg:px-20 px-6 flex flex-wrap items-center`}>
+			} fixed z-30 w-full lg:py-2 py-6 lg:px-20 px-6 flex flex-wrap items-center`}>
 			<div className='flex-1 flex justify-between items-center'>
 				<a
 					href='!#'
@@ -34,7 +35,7 @@ const Navbar = () => {
 						navbar ? 'text-second' : 'lg:text-primary text-second'
 					}`}
 					onClick={toggleHome}>
-					<h1>Nakeusa</h1>
+					<img src={Logo} alt='logo' className='lg:w-20 lg:h-20 w-16 h-16' />
 				</a>
 			</div>
 
@@ -56,8 +57,8 @@ const Navbar = () => {
 				} lg:flex lg:items-center lg:w-auto w-full`}
 				id='menu'>
 				<nav>
-					<ul className='lg:flex items-center justify-between text-base text-gray-700 pt-3'>
-						{NavItems.map((item, index) => (
+					<ul className='lg:flex items-center justify-between text-base text-gray-700'>
+						{NavItems.map((item) => (
 							<li key={item.title}>
 								<a
 									className={item.className}

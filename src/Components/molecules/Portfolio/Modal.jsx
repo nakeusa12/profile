@@ -6,8 +6,8 @@ const Modal = ({ isShowing, hide, projectModal }) =>
 	isShowing
 		? ReactDOM.createPortal(
 				<React.Fragment>
-					<div className='fixed top-0 left-0 z-10 w-screen h-screen bg-gray-900 opacity-50' />
-					<div className='fixed top-0 left-0 z-20 w-full h-full flex items-center overflow-x-hidden overflow-y-auto outline-none'>
+					<div className='fixed top-0 left-0 z-30 w-screen h-screen bg-gray-900 opacity-50' />
+					<div className='fixed top-0 left-0 z-30 w-full h-full flex items-center overflow-x-hidden overflow-y-auto outline-none'>
 						<div
 							className='bg-white relative my-8 mx-auto rounded-md p-8'
 							style={{ zIndex: '2', maxWidth: '800px' }}>

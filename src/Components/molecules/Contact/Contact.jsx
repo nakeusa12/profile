@@ -44,7 +44,7 @@ const Contact = () => {
 
 	return (
 		<section id='contactus'>
-			<div className='container px-12 py-16 mx-auto'>
+			<div className='container px-12 py-32 mx-auto'>
 				<div className='flex flex-wrap w-full mb-10 flex-col items-center text-center'>
 					<h2 className='text-xl text-third font-primary font-bold mb-1'>
 						My Contact
