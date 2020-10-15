@@ -26,7 +26,7 @@ const Navbar = () => {
 		<header
 			className={`${
 				navbar ? 'bg-third shadow-md' : 'lg:bg-transparent bg-third'
-			} fixed z-50 w-full lg:py-2 py-6 lg:px-20 px-6 flex flex-wrap items-center`}>
+			} fixed z-10 w-full lg:py-2 py-6 lg:px-20 px-6 flex flex-wrap items-center`}>
 			<div className='flex-1 flex justify-between items-center'>
 				<a
 					href='!#'
