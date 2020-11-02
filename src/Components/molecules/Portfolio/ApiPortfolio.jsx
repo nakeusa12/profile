@@ -9,6 +9,33 @@ const dataPortfolio = [
 		stack: ['React', 'Sass'],
 	},
 	{
+		name: 'Virtual Bank',
+		image: 'https://i.ibb.co/qC0tPRG/virtualbank.png',
+		deployed_url: 'https://virtual-bank.netlify.app/',
+		category: ['website'],
+		description:
+			'This is a virtual bank website for easy transactions. a website is just a landing page',
+		stack: ['React', 'Styled Components'],
+	},
+	{
+		name: 'Staycation',
+		image: 'https://i.ibb.co/Ss27q8G/2020-11-02-2.png',
+		deployed_url: 'https://staycation-web.vercel.app/',
+		category: ['website'],
+		description:
+			'Staycation is a website for vacationing with family in a comfortable place.',
+		stack: ['React', 'Sass'],
+	},
+	{
+		name: 'Simple Todo-List',
+		image: 'https://i.ibb.co/qmbR2Z6/Todolist.png',
+		deployed_url: 'https://simple-todolistt.netlify.app/',
+		category: ['website'],
+		description:
+			'Website To Do List to make things that we will work on in the future to be more organized.',
+		stack: ['React', 'Emotion'],
+	},
+	{
 		name: 'COVID 19 Tracker',
 		image: 'https://i.ibb.co/8b19FCf/Covid19.png',
 		deployed_url: 'https://update-covid19-tracker.netlify.app/',
@@ -36,15 +63,6 @@ const dataPortfolio = [
 		stack: ['React', 'Tailwindcss', 'Figma'],
 	},
 	{
-		name: 'Simple Todo-List',
-		image: 'https://i.ibb.co/qmbR2Z6/Todolist.png',
-		deployed_url: 'https://simple-todolistt.netlify.app/',
-		category: ['website'],
-		description:
-			'Website To Do List to make things that we will work on in the future to be more organized.',
-		stack: ['React', 'Emotion'],
-	},
-	{
 		name: 'Give Me Win',
 		image: 'https://i.ibb.co/QbVxrp3/gmw.png',
 		deployed_url: 'https://givemewin.netlify.app/',
@@ -52,15 +70,6 @@ const dataPortfolio = [
 		description:
 			'The Give Me Win Landing page is only for displaying ui to provide information about the world of sports',
 		stack: ['HTML', 'CSS', 'JavaScript'],
-	},
-	{
-		name: 'Virtual Bank',
-		image: 'https://i.ibb.co/qC0tPRG/virtualbank.png',
-		deployed_url: 'https://virtual-bank.netlify.app/',
-		category: ['website'],
-		description:
-			'This is a virtual bank website for easy transactions. a website is just a landing page',
-		stack: ['React', 'Styled Components'],
 	},
 ];
 
