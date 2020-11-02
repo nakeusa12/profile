@@ -1,5 +1,14 @@
 const dataPortfolio = [
 	{
+		name: 'E-learning Course',
+		image: 'https://i.ibb.co/HCR60G4/2020-11-02.png',
+		deployed_url: 'https://e-learning-course.netlify.app/',
+		category: ['website'],
+		description:
+			'An e-learning course is a learning website like Udemy. this is my practice',
+		stack: ['React', 'Sass'],
+	},
+	{
 		name: 'COVID 19 Tracker',
 		image: 'https://i.ibb.co/8b19FCf/Covid19.png',
 		deployed_url: 'https://update-covid19-tracker.netlify.app/',
