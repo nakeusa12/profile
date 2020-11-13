@@ -1,5 +1,14 @@
 const dataPortfolio = [
 	{
+		name: 'Busfez - Business Conference',
+		image: 'https://i.ibb.co/vq2fR7x/conference.png',
+		deployed_url: 'https://business-conference.netlify.app/',
+		category: ['website'],
+		description:
+			'Busfez is a website that can hold events or conferences about anything according to schedule and place. This website also provides a schedule of activities that can be viewed by potential participants.',
+		stack: ['React', 'Styled-Components', 'React-Scroll'],
+	},
+	{
 		name: 'E-learning Course',
 		image: 'https://i.ibb.co/HCR60G4/2020-11-02.png',
 		deployed_url: 'https://e-learning-course.netlify.app/',
